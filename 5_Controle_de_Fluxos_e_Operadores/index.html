@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cypress Discovery</title>
+  </head>
+
+  <body>
+    <h1>CNH</h1>
+
+    <input type="text" name="nome" placeholder="Seu primeiro nome" />
+    <input type="number" name="idade" placeholder="Sua idade" />
+    <button type="button" onclick="verificarIdade()">Verificar Idade</button>
+
+    <script type="text/javascript">
+      function verificarIdade() {
+        var nome = document.querySelector("input[name=nome]");
+        var idade = document.querySelector("input[name=idade]");
+
+        var idadeNum = parseInt(idade.value)
+        if(idadeNum>= 18){
+          alert('OK,você pode tirar sua CNH.')
+        }
+        else if(idadeNum>4){
+          alert('Voce é menor de idade e ainda não pode tirar a CNH,sugiro andar de bike.')
+        }
+        else{
+          alert('Você é menor de idade e ainda não pode tirar a CNH!!')
+        }
+      }
+    </script>
+  </body>
+</html>

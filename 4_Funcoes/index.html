@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cypress Discovery</title>
+  </head>
+
+  <body>
+    <h1>CNH</h1>
+
+    <input name="nome" placeholder="Seu primeiro nome" />
+    <input name="idade" placeholder="Sua idade" />
+    <button type="button" onclick="verificarIdade()">Verificar Idade</button>
+
+    <script type="text/javascript">
+      function verificarIdade() {
+        var nome = document.querySelector("input[name=nome]");
+        var idade = document.querySelector("input[name=idade]");
+        console.log(nome.value);
+        console.log(idade.value);
+      }
+    </script>
+  </body>
+</html>
