@@ -1,0 +1,25 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Rodando o JS no servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VicenteAlmeida/JS-Basico.git"
+  },
+  "author": "Vicente Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VicenteAlmeida/JS-Basico/issues"
+  },
+  "homepage": "https://github.com/VicenteAlmeida/JS-Basico#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
