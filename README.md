@@ -1,6 +1,6 @@
 
 
-### Olá!! Esses são alguns códigos básicos de Javascript integrado ao HTML. ✌️✋🫲   
+### Olá!! Esses são alguns códigos básicos de Javascript integrado ao HTML e logicamente ao Front end,e também com a criação de uma API com ExpressJS para verificar o projeto rodando no backend.   
 
 ![Vicente GitHub stats](https://github-readme-stats.vercel.app/api?username=vicentealmeida&show_icons=true&theme=dracula)
 
