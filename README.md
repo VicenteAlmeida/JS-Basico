@@ -1,6 +1,6 @@
 
 
-### Olá!! Esses são alguns códigos de Javascript ✌️✋🫲 🇧🇷  
+### Olá!! Esses são alguns códigos básicos de Javascript integrado ao HTML. ✌️✋🫲   
 
 ![Vicente GitHub stats](https://github-readme-stats.vercel.app/api?username=vicentealmeida&show_icons=true&theme=dracula)
 
